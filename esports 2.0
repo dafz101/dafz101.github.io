@@ -25,7 +25,8 @@
 <div class="row g-4">
 
   <!-- Team Falcons -->
-  <div class="col-md-4">
+<img class="rounded-circle" alt="avatar" src="img/" />  
+<div class="col-md-4">
     <div class="card h-100 shadow-sm">
       <div class="card-body">
         <h2 class="card-title">Team Falcons</h2>
