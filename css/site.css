@@ -9,3 +9,53 @@
   padding: 50px;
   margin: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<head>
+    <title>Example 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: green;
+        }
+        .container {
+            position: relative;
+            height: 200px;
+      width: 600px;
+            border: 1px solid #ddd;
+            margin: 20px;
+        }
+        a.absolute-link {
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>GeeksforGeeks</h1>
+    <h3>Approach 1: Using position: absolute;</h3>
+    <div class="container">
+        <a href="#" class="absolute-link">Absolute Positioned Link</a>
+    </div>
+</body>
+</html>
